@@ -8,11 +8,12 @@
 </head>
 <body>
   <?php
-    $personName = "Dio";
+    $personName = "Dio Brando";
     $personAge = 122;
     echo "<h1>Hello World</h1>";
     echo "<p>My name is $personName</p></br>";
-    echo "<p>I am $personAge years old</p></br>"
+    echo "<p>I am $personAge years old</p></br>";
+    echo substr($personName, 4, 6)
   ?>
 </body>
 </html>
